@@ -221,3 +221,31 @@ footer .row .list-group strong:hover ,footer .row .list-group a:hover
 
 
 /*End of css of footer*/
+
+
+
+/*reservation css*/
+
+.fadeline
+{
+    width:80%;
+    height:2px;
+    background-color: #2a2a2a2a;
+    margin: auto;
+    
+}
+
+.smallline
+{
+    width: 8%;
+    height: 1px;
+    text-align: left;
+    background-color: #000;
+    margin-bottom: 10px;
+    
+}
+.reserve p
+{
+    color:#888;
+    
+}
