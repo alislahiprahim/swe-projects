@@ -7,12 +7,14 @@ $(window).scroll(function(){
         {
             $(".navbar").css("height","100");
             $(".contact h1").css("color","rgba(0,0,0,.3)");
+             $(".navbar-nav2 i").css("color","rgba(42, 42, 42, 0.7)");
         }
     else
         {
             $(".navbar").css("height","140");
             $(".contact h1").css("color","#fff");
 
+            $(".navbar-nav2 i").css("color","rgba(0,0,0,1)");
         }
 })
 

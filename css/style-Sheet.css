@@ -55,15 +55,18 @@
     padding-bottom: 5px;
     border-bottom: 1px solid #000;
     margin-right: 20px; 
+    font-size: 15px
 }
 .navbar-nav2 i
 {
+    
     padding-bottom: 5px;
     border-bottom: 1px solid #000;
     margin-right: 10px;
     padding: 4px 0px 4px 0px;
     
 }
+
 .contact
 {   
     margin-top: 140px;    
@@ -113,7 +116,7 @@
 {
     color: 5a5a5a;
     font-size: 15px;
-    padding-bottom: 600px;
+    padding-bottom: 100px;
 }
 .gettouch h1
 {
@@ -162,7 +165,11 @@
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0,0,0,0);
 
 }
-
+.scrolltop
+{
+    width: 100px;
+    
+}
 .scrolltop i
 {
     float: right;
@@ -170,6 +177,47 @@
     border:1px solid #b19261;
     background-color: #b19261;
     color: #fff;
-    padding: 3px;
+    padding: 10px 20px;
     border-radius: 10%;
+    font-size: 30px;
 }
+
+
+/*Footer Css By Khaled*/
+footer
+{
+    background:#111111;
+    position: static;
+    bottom:0px;left: 0px;
+    color: #E0E0E0;
+}
+footer .row .list-group
+{
+    margin: auto;
+}
+footer .row .list-group .list-group-item
+{
+     background-color: transparent;
+    border:0px solid red;
+    border-bottom: 2px solid gray;
+}
+footer .row .list-group .logodown
+{
+    border: 0px solid red;
+}
+
+footer .row    
+{
+    padding: 3rem 0rem;
+}
+footer .row .list-group strong,footer .row .list-group a
+{
+    color: #E0E0E0;;
+}
+footer .row .list-group strong:hover ,footer .row .list-group a:hover
+{
+    color: #B19261;
+}
+
+
+/*End of css of footer*/
