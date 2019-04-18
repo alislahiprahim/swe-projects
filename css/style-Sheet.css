@@ -5,7 +5,11 @@
     transition: .3s;
     
 }
+body
+{
+    overflow-x: hidden;
 
+}
 .navbar
 {
     background-color: #fff !important;
@@ -221,3 +225,90 @@ footer .row .list-group strong:hover ,footer .row .list-group a:hover
 
 
 /*End of css of footer*/
+
+/*Start of Css of Home Page*/
+ 
+/*carousel Code*/
+.home .carousel .carousel-item .carousel-caption
+{
+    padding-bottom: 13rem;
+}
+.home .carousel .carousel-item .carousel-caption h2
+{
+    font-size: 60px;
+    font-family: crimson;
+}
+.home .carousel .carousel-item .carousel-caption p
+{
+    font-size: 24px;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+        line-height: 30px;
+        font-weight: 400;
+    margin-top: 20px;
+}
+.home .carousel .carousel-item .carousel-caption a
+{
+    border: 1px solid gray;
+    padding: 15px 25px;
+    margin-top: 20px;
+}
+.home .carousel
+{
+    height:50rem;
+}
+
+.home .check_availability
+{
+    padding: 35px 30px 10px 30px;
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+    bottom: 110px; 
+    left: 0px;
+}
+.home .check_availability ul li
+{
+    margin: 0px 5px;    
+    list-style-type: none;
+}
+.home .check_availability ul .check
+{
+    background-color:#B19261;
+    color: #fff;
+    border-color:#B19261;
+    padding: 7px 30px;
+}
+
+
+
+
+
+/*End of Css of Home Page*/
+
+
+/*reservation css*/
+
+.fadeline
+{
+    width:80%;
+    height:2px;
+    background-color: #2a2a2a2a;
+    margin: auto;
+    
+}
+
+.smallline
+{
+    width: 8%;
+    height: 1px;
+    text-align: left;
+    background-color: #000;
+    margin-bottom: 10px;
+    
+}
+.reserve p
+{
+    color:#888;
+    
+}
+/*End cod of reservation*/
