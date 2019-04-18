@@ -181,13 +181,13 @@ body
     border:1px solid #b19261;
     background-color: #b19261;
     color: #fff;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 10%;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
-/*Footer Css By Khaled*/
+/*Footer Css By Khaled  el 3l2*/
 footer
 {
     background:#111111;
@@ -226,6 +226,7 @@ footer .row .list-group strong:hover ,footer .row .list-group a:hover
 
 /*End of css of footer*/
 
+<<<<<<< HEAD
 /*Start of Css of Home Page*/
  
 /*carousel Code*/
@@ -309,6 +310,5 @@ footer .row .list-group strong:hover ,footer .row .list-group a:hover
 .reserve p
 {
     color:#888;
-    
 }
 /*End cod of reservation*/
