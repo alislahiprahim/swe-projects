@@ -125,7 +125,7 @@ body
 .gettouch h1
 {
     padding: 50px;
-    padding-bottom: 20px;
+    padding-bottom:0px;
     color: #2a2a2a;
     font-family: 'Crimson Text', serif;
     
@@ -134,7 +134,9 @@ body
 .gettouch p
 {
     padding: 25px;
-    font-weight: 300;
+    padding-top: 0px;
+    color: #5a5a5a;
+    font-weight: 400;
 }
 .gettouch i
 {
@@ -181,13 +183,13 @@ body
     border:1px solid #b19261;
     background-color: #b19261;
     color: #fff;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border-radius: 10%;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
-/*Footer Css By Khaled  el 3l2*/
+/*Footer Css By Khaled*/
 footer
 {
     background:#111111;
@@ -226,7 +228,6 @@ footer .row .list-group strong:hover ,footer .row .list-group a:hover
 
 /*End of css of footer*/
 
-<<<<<<< HEAD
 /*Start of Css of Home Page*/
  
 /*carousel Code*/
@@ -261,7 +262,7 @@ footer .row .list-group strong:hover ,footer .row .list-group a:hover
 
 .home .check_availability
 {
-    padding: 35px 30px 10px 30px;
+    padding: 0px 0px 0px 0px;
     background-color: rgba(0,0,0,0.8);
     position: relative;
     bottom: 110px; 
@@ -281,7 +282,40 @@ footer .row .list-group strong:hover ,footer .row .list-group a:hover
 }
 
 
-
+/*Code of Slider*/
+.slider .card-deck .card img
+{
+    height: 270;
+    
+}
+.slider .card-footer .price_value price_min
+{
+    font-size: 40; 
+}
+.slider .card-footer
+{
+    font-size: 120%;
+    background-color: transparent;
+    padding: 2rem 0rem 2rem 1rem;
+}
+.slider .card ul li i
+{
+      color: #a6a6a6;
+    
+    
+}
+.slider .card ul li
+{
+    border: 0px;
+    float: left;
+    padding: .5rem;
+     border-right: 1px solid #a6a6a6;
+}
+ .card-icons .list-groups .wifi 
+{
+    border-right: 0px solid red;
+}
+/*end slider*/
 
 
 /*End of Css of Home Page*/
@@ -310,5 +344,6 @@ footer .row .list-group strong:hover ,footer .row .list-group a:hover
 .reserve p
 {
     color:#888;
+    
 }
 /*End cod of reservation*/
