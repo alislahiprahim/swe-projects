@@ -189,9 +189,10 @@ body
 }
 
 
-/*Footer Css By Khaled*/
+/*Footer Css By Khaled العلق*/
 footer
 {
+    margin-top: 200px;
     background:#111111;
     position: static;
     bottom:0px;left: 0px;
@@ -283,39 +284,139 @@ footer .row .list-group strong:hover ,footer .row .list-group a:hover
 
 
 /*Code of Slider*/
-.slider .card-deck .card img
+
+.more-info
 {
-    height: 270;
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    background-color: #b19262;  
+    border: 1px solid #b19262;
+    font-weight: 300;
+    transition: .2s;
     
 }
-.slider .card-footer .price_value price_min
+.more-info:hover
 {
-    font-size: 40; 
+    background-color: #b19262;  
+    border: 1px solid #b19262;
+
 }
-.slider .card-footer
+
+.img-layer
 {
-    font-size: 120%;
-    background-color: transparent;
-    padding: 2rem 0rem 2rem 1rem;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    height: 47%;
+    transition: .1s;
+    opacity: 0;
 }
-.slider .card ul li i
+.img-layer:hover  
 {
-      color: #a6a6a6;
+      opacity: 1;
+}
+.img-layer:hover  >.more-info
+{
+    position: absolute;
+    top: 47%;
     
-    
 }
-.slider .card ul li
+
+.veiw-rooms
 {
-    border: 0px;
-    float: left;
-    padding: .5rem;
-     border-right: 1px solid #a6a6a6;
+    text-align: center;
+    margin: 50px;
+    margin-top: 0px;    
 }
- .card-icons .list-groups .wifi 
+
+.veiw-rooms h2 a
 {
-    border-right: 0px solid red;
+    color: #000 ;
 }
+.veiw-rooms h2 a:hover
+{
+    color: #b19262;
+}
+
 /*end slider*/
+/* our service  code */
+
+
+.our-service
+{
+    text-align: center; 
+    margin: 100px;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 600px;
+}
+.head
+{
+    margin-bottom: 40px;
+}
+.our-service p
+{
+    font-size: 15px ;
+    color: #5a5a5a;
+}
+
+.our-service i
+{
+    font-size: 36px;
+    color: #b19262;
+    margin: 30px;
+    margin-top: 100px;
+}
+/* end  our service */
+
+
+/* video tour code */
+
+video
+{
+    display: inline-block;
+    vertical-align: baseline;
+}
+.video-tour
+{
+    
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+}
+
+.full-screen-video
+{
+    position: absolute;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 1000%;
+    max-width: 1000%;
+    width: auto;
+    height: 760px;
+    top: 380%;
+    left: 0;
+    z-index: -100;
+}
+    
+.headbtn
+{
+    position: relative;
+    top: -400px;
+    left: 40%;
+}
+
+.whitediv
+{
+    background-color: #fff;
+    width: auto;
+    height: 235px;  
+}
 
 
 /*End of Css of Home Page*/
@@ -347,3 +448,6 @@ footer .row .list-group strong:hover ,footer .row .list-group a:hover
     
 }
 /*End cod of reservation*/
+
+
+
