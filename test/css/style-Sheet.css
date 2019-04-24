@@ -1,0 +1,453 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    transition: .3s;
+    
+}
+body
+{
+    overflow-x: hidden;
+
+}
+.navbar
+{
+    background-color: #fff !important;
+    height:140px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: #000;
+    padding-left: 50px;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #B19261;
+}
+
+.navbar-light .navbar-nav .nav-link:focus
+{
+    color: #B19261 !important;
+}
+
+.navbar-nav
+{
+    position: relative;
+    left: 50%;
+}
+
+.navbar-nav2
+{
+    position: relative;
+    top:-27px;
+    left: -32%;
+    
+}
+
+.navbar-nav2 a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-nav2 .call
+{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    margin-right: 20px; 
+    font-size: 15px
+}
+.navbar-nav2 i
+{
+    
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    margin-right: 10px;
+    padding: 4px 0px 4px 0px;
+    
+}
+
+.contact
+{   
+    margin-top: 140px;    
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.2)), url("images/bg_banner_2-1.jpg"); 
+    height:70%;
+    background-position: 100% 100%;
+    background-size: cover;
+    font-family: 'Crimson Text', serif;
+}
+.contact h1
+{
+    position: relative;
+    top: 35%;
+    text-transform: capitalize;
+    font-size: 60px;    
+    color: #fff;
+}
+
+.crack
+{   
+    margin-left: 10px;
+}
+.crackline
+{
+    margin: 1px;
+    width: 1px;
+    height: 9px;
+    background-color: #B19261;
+    transform: rotate(45deg);
+    display: inline-block;
+    
+
+}
+.crackline2
+{
+    content: "";
+    margin: 1px;
+    width: 1px;
+    height: 9px;
+    background-color: #B19261;
+    transform: rotate(-45deg);    
+    display: inline-block;
+
+}
+
+.gettouch
+{
+    color: 5a5a5a;
+    font-size: 15px;
+    padding-bottom: 100px;
+}
+.gettouch h1
+{
+    padding: 50px;
+    padding-bottom:0px;
+    color: #2a2a2a;
+    font-family: 'Crimson Text', serif;
+    
+}
+
+.gettouch p
+{
+    padding: 25px;
+    padding-top: 0px;
+    color: #5a5a5a;
+    font-weight: 400;
+}
+.gettouch i
+{
+    color: #B19261;
+
+}
+.gettouch .links i
+{
+    margin: 10px;
+    color: #000;
+    text-decoration: none;    
+}
+.links .fa-facebook-f:hover
+{
+    color:#B19261;
+}
+.links .fa-google-plus-g:hover
+{
+    color:#B19261;
+}   
+.links .fa-twitter:hover
+{
+    color:dodgerblue;
+}
+.links .fa-instagram:hover
+{
+    color:#5258cf;  
+}
+.gettouch .form-control:focus 
+{
+    border: 1px solid #b19261!important;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(0,0,0,0);
+
+}
+.scrolltop
+{
+    width: 100px;
+    
+}
+.scrolltop i
+{
+    float: right;
+    margin: 20px;
+    border:1px solid #b19261;
+    background-color: #b19261;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10%;
+    font-size: 30px;
+}
+
+
+/*Footer Css By Khaled العلق*/
+footer
+{
+    margin-top: 200px;
+    background:#111111;
+    position: static;
+    bottom:0px;left: 0px;
+    color: #E0E0E0;
+}
+footer .row .list-group
+{
+    margin: auto;
+}
+footer .row .list-group .list-group-item
+{
+     background-color: transparent;
+    border:0px solid red;
+    border-bottom: 2px solid gray;
+}
+footer .row .list-group .logodown
+{
+    border: 0px solid red;
+}
+
+footer .row    
+{
+    padding: 3rem 0rem;
+}
+footer .row .list-group strong,footer .row .list-group a
+{
+    color: #E0E0E0;;
+}
+footer .row .list-group strong:hover ,footer .row .list-group a:hover
+{
+    color: #B19261;
+}
+
+
+/*End of css of footer*/
+
+/*Start of Css of Home Page*/
+ 
+/*carousel Code*/
+.home .carousel .carousel-item .carousel-caption
+{
+    padding-bottom: 13rem;
+}
+.home .carousel .carousel-item .carousel-caption h2
+{
+    font-size: 60px;
+    font-family: crimson;
+}
+.home .carousel .carousel-item .carousel-caption p
+{
+    font-size: 24px;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+        line-height: 30px;
+        font-weight: 400;
+    margin-top: 20px;
+}
+.home .carousel .carousel-item .carousel-caption a
+{
+    border: 1px solid gray;
+    padding: 15px 25px;
+    margin-top: 20px;
+}
+.home .carousel
+{
+    height:50rem;
+}
+
+.home .check_availability
+{
+    padding: 0px 0px 0px 0px;
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+    bottom: 110px; 
+    left: 0px;
+}
+.home .check_availability ul li
+{
+    margin: 0px 5px;    
+    list-style-type: none;
+}
+.home .check_availability ul .check
+{
+    background-color:#B19261;
+    color: #fff;
+    border-color:#B19261;
+    padding: 7px 30px;
+}
+
+
+/*Code of Slider*/
+
+.more-info
+{
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    background-color: #b19262;  
+    border: 1px solid #b19262;
+    font-weight: 300;
+    transition: .2s;
+    
+}
+.more-info:hover
+{
+    background-color: #b19262;  
+    border: 1px solid #b19262;
+
+}
+
+.img-layer
+{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    height: 47%;
+    transition: .1s;
+    opacity: 0;
+}
+.img-layer:hover  
+{
+      opacity: 1;
+}
+.img-layer:hover  >.more-info
+{
+    position: absolute;
+    top: 47%;
+    
+}
+
+.veiw-rooms
+{
+    text-align: center;
+    margin: 50px;
+    margin-top: 0px;    
+}
+
+.veiw-rooms h2 a
+{
+    color: #000 ;
+}
+.veiw-rooms h2 a:hover
+{
+    color: #b19262;
+}
+
+/*end slider*/
+/* our service  code */
+
+
+.our-service
+{
+    text-align: center; 
+    margin: 100px;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 600px;
+}
+.head
+{
+    margin-bottom: 40px;
+}
+.our-service p
+{
+    font-size: 15px ;
+    color: #5a5a5a;
+}
+
+.our-service i
+{
+    font-size: 36px;
+    color: #b19262;
+    margin: 30px;
+    margin-top: 100px;
+}
+/* end  our service */
+
+
+/* video tour code */
+
+video
+{
+    display: inline-block;
+    vertical-align: baseline;
+}
+.video-tour
+{
+    
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+}
+
+.full-screen-video
+{
+    position: absolute;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 1000%;
+    max-width: 1000%;
+    width: auto;
+    height: 760px;
+    top: 380%;
+    left: 0;
+    z-index: -100;
+}
+    
+.headbtn
+{
+    position: relative;
+    top: -400px;
+    left: 40%;
+}
+
+.whitediv
+{
+    background-color: #fff;
+    width: auto;
+    height: 235px;  
+}
+
+
+/*End of Css of Home Page*/
+
+
+/*reservation css*/
+
+.fadeline
+{
+    width:80%;
+    height:2px;
+    background-color: #2a2a2a2a;
+    margin: auto;
+    
+}
+
+.smallline
+{
+    width: 8%;
+    height: 1px;
+    text-align: left;
+    background-color: #000;
+    margin-bottom: 10px;
+    
+}
+.reserve p
+{
+    color:#888;
+    
+}
+/*End cod of reservation*/
+
+
+
